@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/*.top-bar{
+  background-color: brown;
+  grid-area: top;
+}
+.work-space{
+  
+  display: grid;
+  grid-template:
+  "top top top top top"10vh
+  "side main main main main"90vh;
+}
+.side-bar{
+  grid-area: side;
+  background-color: crimson;
+
+}
+.main-bar{
+  grid-area: main;
+  background-color: chartreuse;
+}*/
+.side-bar{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.actions{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: stretch;
+  gap: 5rem;
+}
+.main-bar{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  
+
+}
